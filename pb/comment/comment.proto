@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "github.com/tubagusmf/comment-service/pb/comment";
+
+package comment;
+
+message CommentRequest {
+    string article_id = 1;
+}
+
+message Comment {
+    string id = 1;
+    string article_id = 2;
+    string content = 3;
+    string created_at = 4;
+    string updated_at = 5;
+}
+
+message CommentList {
+    repeated Comment comments = 1;
+}
+
+service CommentService {
+    rpc FindComments(CommentRequest) returns (CommentList);
+}
