@@ -4,10 +4,10 @@ import (
 	"log"
 	"net"
 
-	grpcSvc "comment-service/internal/delivery/grpc"
-	repository "comment-service/internal/repository"
-	usecase "comment-service/internal/usecase"
-	pb "comment-service/pb/comment"
+	grpcSvc "github.com/tubagusmf/go-comment-service/internal/delivery/grpc"
+	repository "github.com/tubagusmf/go-comment-service/internal/repository"
+	usecase "github.com/tubagusmf/go-comment-service/internal/usecase"
+	pb "github.com/tubagusmf/go-comment-service/pb/comment"
 
 	"google.golang.org/grpc"
 )

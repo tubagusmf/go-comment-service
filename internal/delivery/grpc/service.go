@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"comment-service/internal/model"
-	pb "comment-service/pb/comment"
+	"github.com/tubagusmf/go-comment-service/internal/model"
+	pb "github.com/tubagusmf/go-comment-service/pb/comment"
 )
 
 type CommentService struct {

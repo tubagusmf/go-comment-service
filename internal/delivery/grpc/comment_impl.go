@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	pb "comment-service/pb/comment"
+	pb "github.com/tubagusmf/go-comment-service/pb/comment"
 )
 
 func (s *CommentService) FindComments(ctx context.Context, in *pb.CommentRequest) (*pb.CommentList, error) {

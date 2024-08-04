@@ -1,6 +1,6 @@
 package usecase
 
-import "comment-service/internal/model"
+import "github.com/tubagusmf/go-comment-service/internal/model"
 
 type commentUsecase struct {
 	commentRepo model.CommentRepository

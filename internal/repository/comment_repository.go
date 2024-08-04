@@ -1,6 +1,6 @@
 package repository
 
-import "comment-service/internal/model"
+import "github.com/tubagusmf/go-comment-service/internal/model"
 
 type commentRepository struct {
 }

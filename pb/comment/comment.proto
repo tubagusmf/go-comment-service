@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/tubagusmf/comment-service/pb/comment";
+option go_package = "github.com/tubagusmf/go-comment-service/pb/comment";
 
 package comment;
 

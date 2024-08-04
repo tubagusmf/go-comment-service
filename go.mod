@@ -1,4 +1,4 @@
-module comment-service
+module github.com/tubagusmf/go-comment-service
 
 go 1.22.3
 
